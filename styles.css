@@ -1,0 +1,25 @@
+.Images{
+    height: 300px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 40px 60px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #5a5a8c;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.Product-Img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
