@@ -2,18 +2,18 @@ function changeImage(num) {
     const mainImage = document.getElementById('Images');
 
     if (num == 0) {
-        mainImage.src = "Image-1.jpg";
+        mainImage.src = "image 1.jpg";
     }
     else if (num == 1) {
-        mainImage.src = "Image-2.jpg";
+        mainImage.src = "image 2.jpg";
     }
     else if (num == 2) {
-        mainImage.src = "Image-3.jpg";
+        mainImage.src = "image 3.jpg";
     }
     else if (num == 3) {
-        mainImage.src = "Image-4.jpg";
+        mainImage.src = "image 4.jpg";
     }
     else if (num == 4) {
-        mainImage.src = "Image-5.jpg";
+        mainImage.src = "image 5.jpg";
     }
 }
